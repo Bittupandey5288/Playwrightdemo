@@ -4,7 +4,7 @@ test('upload',async({page})=>{
     await page.locator('input#singleFileInput').setInputFiles('tests\\Data\\vkp.png');
     await page.waitForTimeout(5000);
     await page.locator('input#singleFileInput').setInputFiles([]); //This line of code will remove the file
-    // upload multiple file
+    // upload multiple file in playwright
     await page.locator('input#multipleFilesInput').setInputFiles
    (['tests\\Data\\vkp.png','tests\\Data\\JKP.png']);
     await page.waitForTimeout(5000);
