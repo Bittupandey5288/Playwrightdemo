@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2427","Reporter check","chromium","2026-08-03","passed","2026-08-03","","saucedemo.spec.ts","",""
+"","227","Reporter check3","chromium","2026-08-03","failed","2026-08-03","","saucedemo.spec.ts","",""
+"","441","Reporter check2","chromium","2026-08-03","passed","2026-08-03","","saucedemo.spec.ts","",""

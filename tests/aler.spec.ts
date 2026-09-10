@@ -6,7 +6,7 @@ test ('dialog handle', async ({ page }) => {
   
   // step2 create dialog window handler 
 
- page.on('dialog',async dialog=>{
+ page.on('dialog',async dialog=>{ //Pge .on is listner .on register the listner
    console.log(dialog.message());
    expect(dialog.message()).toContain('Press a button!');
    await dialog.dismiss();// thi will click on cancel  button of alert window

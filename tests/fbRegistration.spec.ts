@@ -5,7 +5,7 @@ test.describe('slow test',()=>{
     })
  test('Facbook Registration',async({page})=>{
  await page.goto('https://www.facebook.com/r.php?entry_point=login'); 
- await page.locator('input[name="firstname"]').fill('Bittu',{timeout:5000});
+ await page.locator('input[name="firstname"]').fill('Bittu');
  await page.locator('input[name="lastname"]').fill('Bittu');
  
 

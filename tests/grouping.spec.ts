@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-test.describe.only('smoke Test',async()=>{
+test.describe('smoke Test',async()=>{
     test.beforeEach('before Each',async({page})=>{
     console.log("Hi i am Before Each");
  })
