@@ -1,5 +1,5 @@
 import{test,expect,chromium} from '@playwright/test';
-test.only("handling multitab",async()=>{
+test("handling multitab",async()=>{
 const browser = await chromium.launch();
 const context = await browser.newContext();
 const page = await context.newPage();
@@ -16,5 +16,4 @@ await newpage.locator('(//button[@class="CybotCookiebotDialogBodyButton"])[1]').
 await page.bringToFront();
 await page.waitForSelector('//input[@placeholder="Username"]');
 await page.locator('//input[@placeholder="Username"]').fill("username");
-
 })
